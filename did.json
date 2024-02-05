@@ -21,5 +21,10 @@
       }
     }
   ],
-  "services": []
+ "services": [
+"id": "#messaging-local",
+"type": "DIDCommMessaging",
+"serviceEndpoint": "http://localhost:3332/messaging",
+"description": null
+ ]
 }
