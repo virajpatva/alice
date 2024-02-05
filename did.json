@@ -1,3 +1,25 @@
 {
-  "id": "did:web:virajpatva.github.io:alice"
+  "did": "did:web:virajpatva:github.io:alice",
+  "provider": "did:web",
+  "alias": "virajpatva:github.io:alice",
+  "controllerKeyId": "04c9c88cb96a0e96ef1e437e6b1f42a38f54eefac47a9d3b816ddea3197a13e9e039d4e4c7439f281fa2c1781aa7c91591c25ba13c0675b97882b7e9c315b52a59",
+  "keys": [
+    {
+      "kid": "04c9c88cb96a0e96ef1e437e6b1f42a38f54eefac47a9d3b816ddea3197a13e9e039d4e4c7439f281fa2c1781aa7c91591c25ba13c0675b97882b7e9c315b52a59",
+      "kms": "local",
+      "type": "Secp256k1",
+      "publicKeyHex": "04c9c88cb96a0e96ef1e437e6b1f42a38f54eefac47a9d3b816ddea3197a13e9e039d4e4c7439f281fa2c1781aa7c91591c25ba13c0675b97882b7e9c315b52a59",
+      "meta": {
+        "algorithms": [
+          "ES256K",
+          "ES256K-R",
+          "eth_signTransaction",
+          "eth_signTypedData",
+          "eth_signMessage",
+          "eth_rawSign"
+        ]
+      }
+    }
+  ],
+  "services": []
 }
